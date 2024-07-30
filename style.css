@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+button {
+    margin: 20px;
+}
+
+#principal {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.line {
+    display: flex;
+    height: 100%;
+}
+
+.column {
+    border: 1px solid lightgray;
+    flex: 1;
+}
+
+.column:hover {
+    background-color: lightpink;
+    border: 1px dotted red;
+}
